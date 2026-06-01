@@ -91,3 +91,21 @@ helm uninstall portfolio -n portfolio
 - Ingress
 - Helm chart
 
+## Security And Quality
+
+This repository includes GitHub checks for:
+
+- Markdown linting
+- YAML linting
+- Dockerfile linting with Hadolint
+- Helm chart linting
+- Kubernetes manifest validation with kubeconform
+- Infrastructure security scanning with Checkov
+- Dependabot updates for GitHub Actions
+
+Recommended repository settings:
+
+- Enable secret scanning
+- Enable Dependabot alerts
+- Enable Dependabot security updates
+- Protect the `main` branch and require status checks
