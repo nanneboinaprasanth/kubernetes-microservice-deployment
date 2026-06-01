@@ -24,4 +24,3 @@ Enable these in repository settings:
 - Dependabot security updates
 - Branch protection for `main`
 - Required status checks for pull requests
-
