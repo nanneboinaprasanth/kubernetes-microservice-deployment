@@ -1,0 +1,21 @@
+.DS_Store
+Thumbs.db
+
+# Local editor and OS files
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Kubernetes and Helm local output
+*.tgz
+rendered.yaml
+
