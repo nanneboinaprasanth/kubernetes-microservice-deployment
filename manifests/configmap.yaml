@@ -7,4 +7,3 @@ data:
   APP_NAME: "portfolio-website"
   APP_ENV: "production"
   PUBLIC_SITE_URL: "https://portfolio.local"
-

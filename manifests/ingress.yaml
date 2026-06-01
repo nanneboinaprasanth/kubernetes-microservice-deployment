@@ -18,4 +18,3 @@ spec:
                 name: portfolio-service
                 port:
                   number: 80
-
